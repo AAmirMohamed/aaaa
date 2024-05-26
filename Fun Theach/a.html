@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Sounds</title>
+    <link rel="stylesheet" href="a.css">
+</head>
+<body>
+    <h1>Learn Animal Names</h1>
+    <div>
+        <tr>
+            <td><img id="animal-bee" src="bee.png" alt="Bee" class="animal-image" onclick="playSound('bee')"></td>
+            <td><img id="animal-camel" src="camel.png" alt="Camel" class="animal-image" onclick="playSound('camel')"></td>
+            <td><img id="animal-cat" src="cat.png" alt="Cat" class="animal-image" onclick="playSound('cat')"></td>
+        </tr>
+        <tr>
+            <td><img id="animal-chicken" src="chicken.png" alt="Chicken" class="animal-image" onclick="playSound('chicken')"></td>
+            <td><img id="animal-dog" src="dog.jpg" alt="Dog" class="animal-image" onclick="playSound('dog')"></td>
+        </tr>
+    </div>
+
+    <audio id="bee-sound" src="BEE.mpeg"></audio>
+    <audio id="camel-sound" src="CAMEL.mpeg"></audio>
+    <audio id="cat-sound" src="CAT.mpeg"></audio>
+    <audio id="chicken-sound" src="Chicken.mpeg"></audio>
+    <audio id="dog-sound" src="DOG.mpeg"></audio>
+
+    <script src="a.js"></script>
+</body>
+</html>
+
+

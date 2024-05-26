@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+}
+
+.animal-image {
+    border: 2px solid #000;
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+}
+
+.animal-image:hover {
+    border-color: #00f;
+}
